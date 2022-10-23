@@ -1,0 +1,5 @@
+Con las imágenes de orejas como las encontradas en el drive de ear_inputs.txt y una regresión logística por medio de un clasificador multiclase podemos clasificar las imágenes.
+1.- Importamos la librerias necesarias 
+2.- Podemos usar el dataset de dos forma difrenetes, el primer caso lo vamos a utilizar descargandolos desde la pagina directo y los vamos a transformar
+3.- Cargamos los datos con la función implementada anteriormente
+4.- 
