@@ -6,10 +6,10 @@ cap = cv2.VideoCapture(0)
 # Espeficicar la ruta completa del directorio.
 # En Unix/Linux
 if os.name == "posix":
-	ruta = '/docs/cascade.xml'
+	ruta = '/Autenticacion_para_todos/docs/cascade.xml'
 # En Windows
 elif os.name == "nt":
-	ruta = '\docs\cascade.xml'
+	ruta = '\Autenticacion_para_todos\docs\cascade.xml'
 
 orejaClassif = cv2.CascadeClassifier(ruta)
 

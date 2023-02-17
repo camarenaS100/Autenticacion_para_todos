@@ -1,8 +1,14 @@
-# Variables
+# Variables.
 PYTHON = python3
 
-# Instala las dependencias del proyecto 
+# Instala las dependencias del proyecto.
 install:
-	pip install opencv-python
+	pip install requirements.txt
 
-# Ejecuta 
+# Ejecuta el archivo principal del proyecto.
+run:
+	python /Autenticacion_para_todos/scr/Main.py
+
+# Limpia los archivos generados durante la compilacion.
+clean:
+	rm -rf __pycache__*.pyc

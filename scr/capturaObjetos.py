@@ -3,7 +3,7 @@ import imutils
 import os 
 
 # Espeficicar la ruta completa del directorio
-Datos = "/img/Imagenes_orejas"
+Datos = "/Autenticacion_para_todos/img/Imagenes_orejas"
 if not os.path.exists(Datos):
     print('Carpeta creada: ', Datos)
     os.makedirs(Datos)

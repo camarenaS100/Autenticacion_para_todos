@@ -4,10 +4,10 @@ import cv2
 # Espeficicar la ruta completa del directorio.
 # En Unix/Linux
 if os.name == "posix":
-	ruta = '/img/Mi_oreja.jpg'
+	ruta = '/Autenticacion_para_todos/img/Mi_oreja.jpg'
 # En Windows
 elif os.name == "nt":
-	ruta = '\img\Mi_oreja.jpg'
+	ruta = '\Autenticacion_para_todos\img\Mi_oreja.jpg'
 	
 image = cv2.imread(ruta)
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
