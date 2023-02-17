@@ -1,0 +1,56 @@
+/* --- Globales --- */
+html {
+    background-color: rgb(14, 32, 67);
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    margin: 0;
+}
+
+canvas {
+    opacity: 0;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #1973B8;
+    border: none;
+    margin: 20px;
+}
+
+button:hover {
+    background-color: #1b5481;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+}
+
+/* --- Clases --- */
+.container {
+    max-width: 1200px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container img {
+    width: 280px;
+}
+
+.error {
+    background: rgb(217, 47, 47);
+    padding: 10px 20px;
+}
+
+.succes {
+    background: rgb(129, 181, 51);
+    padding: 10px 20px;
+}
