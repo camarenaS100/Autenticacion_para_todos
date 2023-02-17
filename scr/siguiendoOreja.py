@@ -1,8 +1,17 @@
+import os
 import cv2
 
 cap = cv2.VideoCapture(0)
 
-orejaClassif = cv2.CascadeClassifier('cascade.xml')
+# Espeficicar la ruta completa del directorio.
+# En Unix/Linux
+if os.name == "posix":
+	ruta = '/docs/cascade.xml'
+# En Windows
+elif os.name == "nt":
+	ruta = '\docs\cascade.xml'
+
+orejaClassif = cv2.CascadeClassifier(ruta)
 
 while True:
 	
@@ -22,5 +31,6 @@ while True:
 	
 	if cv2.waitKey(1) == 25:
 		break
+
 cap.release()
 cv2.destroyAllWindows()

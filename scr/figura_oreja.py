@@ -1,6 +1,15 @@
+import os
 import cv2
 
-image = cv2.imread('/Users/jorge/Library/CloudStorage/OneDrive-Personal/VS_Code/Hackathon/Mio/Mi_oreja.jpg')
+# Espeficicar la ruta completa del directorio.
+# En Unix/Linux
+if os.name == "posix":
+	ruta = '/img/Mi_oreja.jpg'
+# En Windows
+elif os.name == "nt":
+	ruta = '\img\Mi_oreja.jpg'
+	
+image = cv2.imread(ruta)
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 canny = cv2.Canny(gray, 10, 150)
 _,umbral = cv2.threshold(gray,100,255,cv2.THRESH_BINARY) # Modificar la escala de grieses de la imagen

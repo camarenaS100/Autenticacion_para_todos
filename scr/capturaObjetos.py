@@ -1,9 +1,9 @@
 import cv2
-import numpy as np 
 import imutils
 import os 
 
-Datos = 'n'
+# Espeficicar la ruta completa del directorio
+Datos = "/img/Imagenes_orejas"
 if not os.path.exists(Datos):
     print('Carpeta creada: ', Datos)
     os.makedirs(Datos)
