@@ -1,13 +1,8 @@
 import os
 import cv2
 
-# Espeficicar la ruta completa del directorio.
-# En Unix/Linux
-if os.name == "posix":
-	ruta = '/Autenticacion_para_todos/img/Mi_oreja.jpg'
-# En Windows
-elif os.name == "nt":
-	ruta = '\Autenticacion_para_todos\img\Mi_oreja.jpg'
+# Obtiene la ruta de de la carpeta con la imagen para cambiar las escalas de colores
+ruta = os.path.join('img', 'Mi_oreja.jpg')
 	
 image = cv2.imread(ruta)
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)

@@ -1,17 +1,12 @@
 import os
 import cv2
 
+# Obtiene la ruta de de la carpeta con el archivo cascade.xml
+ruta_archivo = os.path.join('docs', 'cascade.xml')
+
 cap = cv2.VideoCapture(0)
 
-# Espeficicar la ruta completa del directorio.
-# En Unix/Linux
-if os.name == "posix":
-	ruta = '/Autenticacion_para_todos/docs/cascade.xml'
-# En Windows
-elif os.name == "nt":
-	ruta = '\Autenticacion_para_todos\docs\cascade.xml'
-
-orejaClassif = cv2.CascadeClassifier(ruta)
+orejaClassif = cv2.CascadeClassifier(ruta_archivo)
 
 while True:
 	

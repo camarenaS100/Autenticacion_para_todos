@@ -2,8 +2,9 @@ import cv2
 import imutils
 import os 
 
-# Espeficicar la ruta completa del directorio
-Datos = "/Autenticacion_para_todos/img/Imagenes_orejas"
+# Obtiene la ruta de de la carpeta con las imagenes negativas 
+Datos = os.path.join('img', 'negativas')
+
 if not os.path.exists(Datos):
     print('Carpeta creada: ', Datos)
     os.makedirs(Datos)
@@ -27,6 +28,7 @@ while True:
     if k == 25:
         break
 
+# Presonar la tecla s en la pantalla de la webcam para que las fotos de tomen y se almacenen 
     if k == ord('s'):
         cv2.imwrite(Datos+'/objeto_{}.jpg'.format(count), objeto)
         print('Imagen almacenada: ', 'objeto_{}.jpg'.format(count))
