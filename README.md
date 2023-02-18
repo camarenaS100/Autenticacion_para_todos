@@ -1,6 +1,6 @@
 # ****Autenticación para todos****
 
-![Untitled](README%20de%20Autenticacio%CC%81n%20para%20todos%209e888a94269c48839b5b0b3809c4f3a8/Untitled.png)
+![Untitled](README_multimedia/Untitled.png)
 
 Puedes checar el video sobre el proyecto [aqui.](https://youtu.be/32tMEkpsjVM)
 
@@ -14,7 +14,7 @@ En este momento hay bastantes personas que no se pueden identificar con los mét
 
 Queremos presentarles un cuarto método de identificación enfocado a personas con cierta discapacidad para que podamos ayudarlos a través de la biometría de oreja.
 
-![objetivo.png](README%20de%20Autenticacio%CC%81n%20para%20todos%209e888a94269c48839b5b0b3809c4f3a8/objetivo.png)
+![objetivo.png](README_multimedia/objetivo.png)
 
 ## **Desarrollo**
 
