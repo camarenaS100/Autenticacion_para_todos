@@ -20,7 +20,7 @@ Queremos presentarles un cuarto método de identificación enfocado a personas c
 
 El proyecto cuenta con una fase que es encuadrar tu oreja así como lo hace un reconocimiento facial, luego se toma una fotografía de esta y se agrega un contorno para poder enfocar cada una de las partes que se están buscando identificar de la oreja, finalmente se realizar un mapeo con los puntos críticos de la oreja para poder saber cuál específicamente es la del usuario y así poderlo identificar.
 
-![Pasos.png](README%20de%20Autenticacio%CC%81n%20para%20todos%209e888a94269c48839b5b0b3809c4f3a8/Pasos.png)
+![Pasos.png](README_multimedia/Pasos.png)
 
 Para este proyecto se utilizaron las bibliotecas de **opencv-python** y **imutils**
 
@@ -31,9 +31,9 @@ pip install imutils
 
 ## **Demo**
 
-![siguiendo_AdobeExpress.gif](README%20de%20Autenticacio%CC%81n%20para%20todos%209e888a94269c48839b5b0b3809c4f3a8/siguiendo_AdobeExpress.gif)
+![siguiendo_AdobeExpress.gif](README_multimedia/siguiendo.gif)
 
-![bbva_AdobeExpress.gif](README%20de%20Autenticacio%CC%81n%20para%20todos%209e888a94269c48839b5b0b3809c4f3a8/bbva_AdobeExpress.gif)
+![bbva_AdobeExpress.gif](README_multimedia/bbva.gif)
 
 ## **Autores**
 
