@@ -46,7 +46,11 @@ pip install imutils
 
 ## **Agradecimientos**
 
-Agradecemos al equipo de [BBVA Open Innovation](https://openinnovation.bbva.com/es/) por brindarnos esta oportunidad y hacernos crecer como desarrolladores de software, pero sobre todo como personas. 
+Agradecemos al equipo de [BBVA Open Innovation](https://openinnovation.bbva.com/es/) por brindarnos esta oportunidad y hacernos crecer como desarrolladores de software, pero sobre todo como personas.
+
+## **Estatus**
+
+Este proyecto fue realizado por el equipo Panteras para la participación en el Hackathon BBVA 2022, el cual se llevo a cabo del 21 al 23 de Octubre de 2022, no existen intenciones de actualizar el código en el futuro.
 
 ## **Licencia**
 
