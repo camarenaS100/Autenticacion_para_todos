@@ -39,7 +39,7 @@ pip install imutils
 
 - [Jorge Juarez](https://github.com/jorge-jrzz)
 - [Santiago Camarena](https://github.com/camarenaS100)
-- Santiago Bocanegra
+- [Santiago Bocanegra](https://github.com/Sbdk24)
 - [Michelle Brady](https://github.com/michellebrady08)
 - [Iñaki Garcia](https://github.com/InakiGT)
 - [Misael Alvarez](https://github.com/Misael-Alvarez)
